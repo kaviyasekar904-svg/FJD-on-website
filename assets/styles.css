@@ -1,0 +1,91 @@
+/* Main Streamlit background */
+
+.stApp {
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+
+
+/* Big title */
+
+.big-title{
+    font-size:60px;
+    font-weight:800;
+    text-align:center;
+    color:white;
+    letter-spacing:1px;
+}
+
+
+/* Subtitle */
+
+.subtitle{
+    text-align:center;
+    font-size:22px;
+    color:#e0e0e0;
+    margin-bottom:40px;
+}
+
+
+/* Result box */
+
+.result-box{
+    padding:30px;
+    border-radius:15px;
+    font-size:26px;
+    font-weight:bold;
+    text-align:center;
+    backdrop-filter: blur(10px);
+    background:rgba(255,255,255,0.1);
+    box-shadow:0 8px 30px rgba(0,0,0,0.4);
+}
+
+
+/* Fake result */
+
+.fake{
+    background:#ffe5e5;
+    color:#b30000;
+}
+
+
+/* Real result */
+
+.real{
+    background:#e6ffe6;
+    color:#006600;
+}
+
+
+/* Input box */
+
+.stTextInput input{
+    border-radius:10px;
+    padding:10px;
+}
+
+
+/* Text area */
+
+textarea{
+    border-radius:10px;
+}
+
+
+/* Button */
+
+.stButton button{
+    font-size:18px;
+    padding:10px 30px;
+    border-radius:10px;
+    background:linear-gradient(90deg,#1f77b4,#4facfe);
+    color:white;
+    border:none;
+}
+
+
+/* Button hover */
+
+.stButton button:hover{
+    background:linear-gradient(90deg,#155a8a,#1f77b4);
+}
